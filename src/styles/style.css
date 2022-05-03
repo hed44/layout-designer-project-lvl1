@@ -1,14 +1,15 @@
 :root {
-  --white: #fff;
-  --translucent-white: #d7ccc0;
-  --light: #f5f4f0; 
   --main-color: #fe8a02;
   --second-color: #42413c;
-  --dark: #2A2626;
+  --white: #fff;
+  --translucent-white: #d7ccc0;
+  --light: #f5f4f0;
+  --dark: #2a2626;
   --translucent-dark: #908d8b;
   --brown: #b09a81;
-  --blue: #1085c5;  
+  --blue: #1085c5;
 }
+
 @font-face {
   font-weight: 400;
   font-family: OpenSans;
@@ -20,27 +21,33 @@
   font-family: Neucha;
   src: url("../fonts/Neucha-Regular.ttf");
 }
+
 body {
-  font-family: OpenSans;
+  color: var(--dark);
   font-size: 16px;
+  font-family: OpenSans, sans-serif;
   line-height: 1.6em;
-  color: --dark;
 }
+
 h1,
 h2,
 h3 {
-  font-family: Neucha;
+  font-family: Neucha, cursive;
   line-height: 1.2em;
 }
+
 h1 {
   font-size: 72px;
 }
+
 h2 {
   font-size: 60px;
 }
+
 h3 {
   font-size: 34px;
 }
+
 section {
   display: flex;
   width: 1110px;
