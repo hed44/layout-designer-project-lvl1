@@ -68,7 +68,7 @@ header {
 header::before {
   position: absolute;
   top: 0;
-  left: -45px;
+  left: 0;
 
   display: block;
   width: 100%;
@@ -76,7 +76,7 @@ header::before {
 
   background-image: url("../img/background.png");
   background-repeat: no-repeat;
-  /* background-size: inherit; */
+  background-size: cover;
   opacity: 0.1;
 
   content: "";
@@ -107,24 +107,7 @@ h1 span {
   height: 525px;
 }
 
-.col-2 {
-  margin-top: 200px;
-
-  column-count: 2;
-  column-width: 540px;
-  column-gap: 30px;
-
-  font-size: 16px;
-  font-family: OpenSans, sans-serif;
-  font-weight: normal;
-  line-height: 26px;
-}
-
-.break-before {
-  break-before : column;
-}
-
-/* .title-descr-wrap {
+.title-descr-wrap {
   display: flex;
   margin-top: 185px;
 }
@@ -136,7 +119,7 @@ h1 span {
 
 .ml-30 {
   margin-left: 30px;
-} */
+}
 
 .read-more {
   display: inline-block;
@@ -164,7 +147,7 @@ h1 span {
 .explanations {
   position: relative;
 
-  padding-bottom: 408px;
+  padding-bottom: 415px;
 
   text-align: center;
 }
@@ -199,7 +182,7 @@ h1 span {
 .navigation__wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .navigation__block {
