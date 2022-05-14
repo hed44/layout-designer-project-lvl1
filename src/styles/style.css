@@ -34,8 +34,6 @@ body {
 h1,
 h2,
 h3 {
-  margin: 0;
-
   font-weight: normal;
   font-family: Neucha, cursive;
   line-height: 1.2em;
@@ -196,6 +194,8 @@ h1 span {
 }
 
 .navigation_title {
+  margin: 0;
+
   font-weight: normal;
   font-size: 52px;
   text-align: left;
@@ -341,4 +341,117 @@ h1 span {
   color: #b09a81;
 
   background-color: #fff;
+}
+
+.footer {
+  display: block;
+
+  text-align: center;
+}
+
+.footer-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 190px;
+
+  background-color: var(--second-color);
+}
+
+.sr-only {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  padding: 0;
+
+  overflow: hidden;
+
+  white-space: nowrap;
+
+  border: 0;
+}
+
+.more {
+  padding-left: 55px;
+
+  color: #fff;
+  text-align: left;
+}
+
+.your-mail {
+  margin-bottom: 9px;
+
+  color: #fff;
+  font-size: 18px;
+
+  text-align: left;
+}
+
+.form {
+  padding-right: 104px;
+}
+
+.form-input {
+  display: inline-block;
+}
+
+.form-input input {
+  box-sizing: border-box;
+  width: 432px;
+  height: 50px;
+  padding: 15px;
+
+  border: 1px solid #e2e2e2;
+}
+
+.btn {
+  position: relative;
+
+  display: inline;
+  padding: 0;
+
+  border: none;
+}
+
+.btn::before {
+  position: absolute;
+  top: -29px;
+  left: -22px;
+
+  display: block;
+
+  width: 70px;
+  height: 50px;
+
+  background: url("../img/send.svg") center center no-repeat;
+  background-color: #fe8a02;
+  cursor: pointer;
+
+  content: "";
+}
+
+.email-descr {
+  color: var(--white);
+  font-size: 12px;
+
+  text-align: left;
+}
+
+.email-descr a {
+  color: var(--white);
+}
+
+.footer p {
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.name {
+  margin-top: 76px;
+}
+
+.link {
+  color: #1085c5;
 }
