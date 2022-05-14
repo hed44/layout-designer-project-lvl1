@@ -229,7 +229,7 @@ h1 span {
   text-align: left;
   text-decoration: none;
 
-  background: var(--white);
+  background: var(--light);
 
   transition: all 0.2s linear;
 }
