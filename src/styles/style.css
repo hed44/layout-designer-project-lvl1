@@ -159,7 +159,9 @@ h1 span {
 .explanations {
   position: relative;
 
-  padding-bottom: 415px;
+  min-height: 814px;
+
+  /* padding-bottom: 415px; */
 
   text-align: center;
 }
