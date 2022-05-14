@@ -59,9 +59,12 @@ h3 {
   padding: 100px 0;
 }
 
-header {
+.header {
   position: relative;
+
   overflow: hidden;
+
+  background-color: var(--light);
 }
 
 .header::before,
@@ -255,6 +258,8 @@ h1 span {
 
 .ikea-effect {
   position: relative;
+
+  background-color: var(--light);
 }
 
 .ikea-top {
