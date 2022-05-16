@@ -196,13 +196,13 @@ h1 span {
   background: #42413c;
 }
 
-.navigation__wrapper {
+.navigation-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.navigation__block {
+.navigation-block {
   width: 350px;
   height: 323px;
 }
@@ -211,7 +211,7 @@ h1 span {
   height: 348px;
 }
 
-.navigation_title {
+.navigation-title {
   margin: 0;
 
   font-weight: normal;
@@ -243,7 +243,7 @@ h1 span {
   color: var(--white);
 }
 
-.navigation__count {
+.navigation-count {
   margin-bottom: 40px;
 
   color: var(--dark);
@@ -252,7 +252,7 @@ h1 span {
   line-height: 1;
 }
 
-.navigation__subheader {
+.navigation-subheader {
   margin-bottom: 16px;
 
   color: var(--main-color);
@@ -261,7 +261,7 @@ h1 span {
   line-height: 120%;
 }
 
-.navigation__descr {
+.navigation-descr {
   color: var(--dark);
   font-size: 16px;
 }
@@ -452,7 +452,13 @@ h1 span {
   background-color: #fe8a02;
   cursor: pointer;
 
+  transition: all 0.2s linear;
+
   content: "";
+}
+
+.btn:hover::before {
+  background-color: #ea7600;
 }
 
 .email-descr {
