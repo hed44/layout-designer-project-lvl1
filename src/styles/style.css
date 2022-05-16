@@ -171,7 +171,7 @@ h1 span {
 
 .explanations h2 {
   margin-top: 0;
-  margin-bottom: 27px;
+  margin-bottom: 30px;
 }
 
 .explanations h2 span,
@@ -330,6 +330,9 @@ h1 span {
   background: var(--brown);
 }
 
+.ikea-topcontent h2 {
+  margin: 0;
+}
 .prem-opt {
   color: var(--white);
 
