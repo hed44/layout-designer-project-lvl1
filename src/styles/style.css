@@ -62,6 +62,7 @@ h3 {
 .m-0 {
   margin: 0;
 }
+
 .mb-20 {
   margin-bottom: 20px;
 }
@@ -333,6 +334,7 @@ h1 span {
 .ikea-topcontent h2 {
   margin: 0;
 }
+
 .prem-opt {
   color: var(--white);
 
@@ -420,7 +422,7 @@ h1 span {
 
 .form-input input {
   box-sizing: border-box;
-  width: 432px;
+  width: 423px;
   height: 50px;
   padding: 15px;
 
@@ -439,7 +441,7 @@ h1 span {
 .btn::before {
   position: absolute;
   top: -30px;
-  left: -22px;
+  left: -12px;
 
   display: block;
 
@@ -464,7 +466,7 @@ h1 span {
   color: var(--white);
 }
 
-.footer p {
+.mt-16 {
   margin-top: 16px;
   margin-bottom: 0;
 }
